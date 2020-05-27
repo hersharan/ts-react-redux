@@ -1,0 +1,6 @@
+.MuiTableCell-root,
+.MuiIcon-fontSizeSmall,
+.MuiInputBase-input,
+.MuiIcon-root {
+  font-size: 1.5rem !important;
+}

@@ -1,0 +1,34 @@
+.signin-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #00c2a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin-box {
+  width: 400px;
+  background: white;
+  padding: 15px 30px 30px 30px;
+}
+
+.signin-box label {
+  font-weight: 400;
+}
+.signin-box h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: orange;
+}
+#validation-msg {
+  margin-top: 10px;
+  display: none;
+}
+
+#validation-msg.dblock {
+  display: block;
+}
